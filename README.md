@@ -8,6 +8,13 @@ Here's a README text you can use for your GitHub repository to describe your Bur
 ## Overview
 This repository contains the source code for the Dinner Burger landing page. The page is designed to provide information about the Dinner Burger restaurant, including its menu, ordering options, and contact details. The design includes smooth navigation and an attractive layout to enhance user experience.
 
+## Screenshots
+![image](https://github.com/user-attachments/assets/b11b86c1-3b75-41db-b464-912dfdac54bf)
+![image](https://github.com/user-attachments/assets/a2ef3ce6-8530-43f5-a1cb-f12c2a3d9ad9)
+![image](https://github.com/user-attachments/assets/cea03afb-b570-4d6e-90cf-5507acb0849d)
+![image](https://github.com/user-attachments/assets/cc288f67-d140-4499-b20f-7f9407050f9c)
+
+
 ## Features
 - **Smooth Navigation:** Users can navigate through sections smoothly.
 - **Dropdown Menu:** A dropdown menu is available under the "Order" section to display different burger options.
