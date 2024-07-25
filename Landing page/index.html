@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1>Dinner Burger</h1>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                    <a href="#order" class="dropbtn">Order</a>
+                    <div class="dropdown-content">
+                        <a href="#classic">Classic Burger</a>
+                        <a href="#cheese">Cheese Burger</a>
+                        <a href="#veggie">Veggie Burger</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-about-container">
+        <section class="hero" id="home">
+            <img src="./bg.png" alt="Delicious Burger">
+        </section>
+        <section class="about" id="about">
+            <h2>About Us</h2>
+            <p>At Dinner Burger, we are passionate about creating the best burgers with fresh ingredients and mouth-watering flavors. Since our founding in 2000, we have been dedicated to providing our customers with a delightful dining experience.</p>
+        </section>
+    </section>
+    <section class="menu" id="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li>Classic Burger</li>
+            <li>Cheese Burger</li>
+            <li>Veggie Burger</li>
+            <li>Chicken Burger</li>
+            <li>Fries</li>
+            <li>Shakes</li>
+        </ul>
+    </section>
+    <section class="order" id="order">
+        <h2>Order Your Burger</h2>
+        <div class="order-options">
+            <div class="order-option" id="classic">
+                <h3>Classic Burger</h3>
+                <p>Our classic burger with fresh ingredients.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="order-option" id="cheese">
+                <h3>Cheese Burger</h3>
+                <p>A delicious cheese burger with premium cheese.</p>
+                <button>Order Now</button>
+            </div>
+            <div class="order-option" id="veggie">
+                <h3>Veggie Burger</h3>
+                <p>A healthy and tasty veggie burger.</p>
+                <button>Order Now</button>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Have any questions or feedback? Feel free to reach out to us!</p>
+        <form>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" required></textarea><br>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Dinner Burger. All rights reserved.</p>
+    </footer>
+</body>
+</html>
